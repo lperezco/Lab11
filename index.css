@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2e0113;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    text-align: center;
+  }
+  
+  .title {
+    font-family: "Silkscreen", sans-serif; 
+    font-weight: 700; 
+    font-size: 2.5rem;
+    color: #731680;
+    margin-bottom: 20px;
+  }
+  
+  #searchBar {
+    padding: 10px;
+    width: 100%;
+    max-width: 600px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ff0aad;
+    margin-bottom: 30px;
+    color: #fff;
+    background-color: #7e4776;
+  }
+  
+  #agentsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .agent {
+    background-color: #39022b;
+    border-radius: 10px;
+    width: 220px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  }
+  
+  .agent:hover {
+    transform: scale(1.05);
+    background-color: #e479ffea; 
+  }
+  
+  .agent img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .agent h2 {
+    font-family: "Silkscreen", sans-serif; 
+    font-weight: 400; 
+    color: #9900ff;
+    margin: 10px 0;
+    font-size: 1.25rem;
+  }
+  
+  .agent p {
+    font-size: 0.9em;
+    margin: 5px 0;
+  }
+  
+  .agent .rol {
+    color: #f886cc;
+    font-weight: bold;
+  }
+  
+  .agent .descripcion {
+    font-size: 0.85em;
+    color: #ddd;
+    margin: 5px 0;
+  }
+  
+  
+  .agent ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+    font-size: 0.9em;
+    margin-top: 10px;
+  }
